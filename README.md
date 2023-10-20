@@ -18,7 +18,7 @@ Um die Übungsaufgaben herunterzuladen, klickt im IntelliJ-Startbildschirm auf "
 
 ![image info](./introduction/image/startscreen.png)
 
-Fügt unter "URL" nun die Adresse des Übungsrepository ein: **HIER LINK ZUM REPRO ERGÄNZEN**.
+Fügt unter "URL" nun die Adresse des Übungsrepository ein: https://github.com/msg-up-vorkurs/vorkurs-se-2023
 
 Damit die Aufgaben heruntergeladen werden können, wird mit git ein separates Programm benötigt. git kann direkt über IntelliJ installiert werden:
 
