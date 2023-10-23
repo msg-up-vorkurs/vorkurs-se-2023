@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>introduction</module>
+        <module>variables-operators</module>
+        <module>classes-objects-constructors</module>
     </modules>
 
     <properties>
