@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>methods</artifactId>
+    <artifactId>03_classes-objects-constructors</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

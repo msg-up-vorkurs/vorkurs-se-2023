@@ -9,11 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>introduction</module>
-        <module>variables-operators</module>
-        <module>classes-objects-constructors</module>
-        <module>methods</module>
-        <module>accessmodifiers</module>
+        <module>01_introduction</module>
+        <module>02_variables-operators</module>
+        <module>03_classes-objects-constructors</module>
+        <module>04_methods</module>
+        <module>05_accessmodifiers</module>
     </modules>
 
     <properties>
