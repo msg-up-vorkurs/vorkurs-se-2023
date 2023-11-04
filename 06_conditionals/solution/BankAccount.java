@@ -55,20 +55,6 @@ public class BankAccount {
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public double currencyConvert(String targetCurrency) {
         switch (targetCurrency) {
             case "USD":
