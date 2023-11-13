@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>07_references-equality</artifactId>
+    <artifactId>08_references-equality</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

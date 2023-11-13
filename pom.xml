@@ -15,7 +15,8 @@
         <module>04_methods</module>
         <module>05_accessmodifiers</module>
         <module>06_conditionals</module>
-        <module>07_references-equality</module>
+        <module>07_scope</module>
+        <module>08_references-equality</module>
     </modules>
 
     <properties>
