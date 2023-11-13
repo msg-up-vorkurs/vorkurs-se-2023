@@ -95,3 +95,37 @@ Die folgende Wahrheitstabelle zeigt die verschiedenen Ergebnisse an, die erzielt
 | True         | False        | False | True  | True  |
 | False        | True         | False | True  | True  |
 | False        | False        | False | False | False |
+
+## switch-Statements
+Durch switch-Statements lassen sich `if - else if - ... - else`-Verzweigungen kompakter darstellen.
+
+### Aufbau eines switch-case Statement
+```
+switch (variable) {
+    case A:
+        // Code, der ausgeführt wird, wenn "variable" den Wert A hat.
+        break // Break ist immer notwendig, damit nicht der Code aller folgenden Fälle zusätzlich ausgeführt wird.
+    case B:
+        // Code, der ausgeführt wird, wenn "variable" den Wert B hat.
+        break
+    default:
+        // Code, in allen anderen Fällen ausgeführt wird. 
+}
+```
+
+**Wichtig**: Die im `switch` auszuwertende Variable muss entweder ein primitiver Datentyp (`int`, `char`, `short`, `byte`, ...) oder `String` sein. Komplexe Datentypen können nicht ausgewertet werden.
+
+Dass nach jedem Fall `break` angegeben werden muss, hat historische Gründe: Hier hat sich Java an der Programmiersprache C orientiert. Da diese Notwendigkeit heute oftmals als unintuitiv angesehen wird, stellt Java seit einigen Jahren eine kompaktere Alternative bereit.
+
+### Alternative: switch-expressions
+Seit Java 12 gibt es eine Alternative zum klassischen switch-case: *switch expressions*. Diese sind im Aufbau zu switch-case fast gleich. Lediglich die Fälle (cases) werden durch ein anderes Zeichen eingeleitet: `->` statt `:`.
+
+```
+switch (variable) {
+    case A -> // Code, der ausgeführt wird, wenn "variable" den Wert A hat.
+    case A -> // Code, der ausgeführt wird, wenn "variable" den Wert B hat.
+    default -> // Code, in allen anderen Fällen ausgeführt wird. 
+}
+```
+
+Hier muss das `break`-Schlüsselwort nicht mehr angegeben werden.
