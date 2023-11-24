@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>2d-arrays</artifactId>
+    <artifactId>11_2d-arrays</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
