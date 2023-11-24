@@ -19,6 +19,7 @@
         <module>08_references-equality</module>
         <module>09_arrays-loops</module>
         <module>10_collections-generics</module>
+        <module>11_2d-arrays</module>
     </modules>
 
     <properties>
