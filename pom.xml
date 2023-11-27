@@ -20,6 +20,7 @@
         <module>09_arrays-loops</module>
         <module>10_collections-generics</module>
         <module>11_2d-arrays</module>
+        <module>12_inheritance</module>
     </modules>
 
     <properties>
