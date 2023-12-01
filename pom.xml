@@ -21,6 +21,7 @@
         <module>10_collections-generics</module>
         <module>11_2d-arrays</module>
         <module>12_inheritance</module>
+        <module>13_tik-tak-toe</module>
     </modules>
 
     <properties>
